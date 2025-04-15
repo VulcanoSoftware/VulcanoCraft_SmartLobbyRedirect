@@ -1,0 +1,3 @@
+# SmartLobbyRedirect Config
+# Naam van de lobby server (moet overeenkomen met de naam in Velocity's servers.toml)
+lobby-server: lobby
