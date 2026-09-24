@@ -8,7 +8,7 @@ import com.velocitypowered.api.plugin.annotation.DataDirectory;
 import com.velocitypowered.api.proxy.ProxyServer;
 import net.kyori.adventure.text.Component;
 
-import javax.inject.Inject;
+import com.google.inject.Inject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -18,7 +18,7 @@ import java.util.Properties;
 @Plugin(
     id = "smartlobbyredirect",
     name = "SmartLobbyRedirect",
-    version = "1.4",
+    version = BuildConstants.VERSION,
     authors = {"vulcanocraft"}
 )
 public class SmartLobbyRedirect {
