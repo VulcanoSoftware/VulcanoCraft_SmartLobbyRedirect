@@ -18,7 +18,7 @@ import java.util.Properties;
 @Plugin(
     id = "smartlobbyredirect",
     name = "SmartLobbyRedirect",
-    version = "1.4",
+    version = BuildConstants.VERSION,
     authors = {"vulcanocraft"}
 )
 public class SmartLobbyRedirect {
